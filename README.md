@@ -16,4 +16,4 @@ With these caveats in mind, its important to chose and track a meaningful engage
 
 Moreover, because the App Store defaults to showing only ratings and reviews for your latest app version, you should consider limiting ratings requests to a once-per-user-per-app-version cycle (or perhaps somehow rationing rating requests across different sets of users if you find yourself updating your app more than 3 times per year).  
 
-The example project included in this repository implements the SKStoreReviewController.requestReview API, along with a simple demo engagement tracking trigger and an app version request limit. 
+The [example project](https://github.com/CleverTap/ios-request-review/tree/master/Example/RatingExample) included in this repository implements the SKStoreReviewController.requestReview API, along with a simple demo engagement tracking trigger and an app version request limit. 
