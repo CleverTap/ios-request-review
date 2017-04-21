@@ -2,7 +2,7 @@
 
 Starting with iOS 10.3, Apple has made significant changes to its app rating and review functionality. [See the Apple documentation for more detail](https://developer.apple.com/app-store/ratings-and-reviews/).
 
-Using the [SKStoreReviewController API](https://developer.apple.com/reference/storekit/skstorereviewcontroller/2851536-requestreview), you can prompt users to leave an App Store rating/review without leaving your app.  Users will we shown a standardized prompt, and can authenticate with Touch ID to write and submit a review. 
+Using the [SKStoreReviewController API](https://developer.apple.com/reference/storekit/skstorereviewcontroller/2851536-requestreview), you can prompt users to leave an App Store rating/review without leaving your app.  Users will be shown a standardized prompt, and can authenticate with Touch ID to write and submit a review. 
 
 Some caveats:
 - You should only call the API when it makes sense in the user experience flow of your app, and then only after the user has demonstrated engagement.
